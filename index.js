@@ -1,12 +1,12 @@
 class Driver{
-  constructor(name, date){
+  constructor(name, myDate){
     this.name = name;
-    this.date = date;
+    this.date = myDate;
   }
   
-  startDate(date){
-    let myDate = new Date();
-    return myDate;
+  startDate(myDate){
+    let dateObj = new Date(myDate);
+    return dateObj;
   }
   
   yearsExperienceFromBeginningOf(year){
