@@ -26,7 +26,7 @@ class Route{
     
   }
   estimatedTime(){
-    if (arguments(estimatedTime === true)){
+    if (arguments(this.estimatedTime === true)){
       return this.blocksTravelled()/2;
     } else {
     return this.blocksTravelled()/3;
