@@ -19,6 +19,8 @@ class Route{
   }
   
   blocksTravelled(){
+    let eastWest = 
+    
     
     
     return (this.beg.vertical - this.end.vertical);
