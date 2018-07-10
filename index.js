@@ -20,6 +20,7 @@ class Route{
   
   blocksTravelled(){
     
+    
     return (this.beg.vertical - this.end.vertical);
     
   }
