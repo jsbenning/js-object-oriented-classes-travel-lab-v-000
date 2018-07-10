@@ -19,7 +19,7 @@ class Route{
   }
   
   blocksTravelled(){
-    return (this.beg.vertical - this.end.vertical);
+    return Math.abs(this.beg.vertical - this.end.vertical);
     
   }
   estimatedTime(){
