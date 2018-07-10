@@ -24,7 +24,7 @@ class Route{
     
     
     
-    return (this.beg.vertical - this.end.vertical);
+    return myHor;
     
   }
   estimatedTime(){
