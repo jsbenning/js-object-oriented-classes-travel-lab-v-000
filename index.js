@@ -5,8 +5,8 @@ class Driver{
   }
   
   startDate(myDate){
-    let dateObj = new Date(myDate);
-    return dateObj;
+    //let dateObj = new Date(myDate);
+    return myDate;
   }
   
   yearsExperienceFromBeginningOf(year){
