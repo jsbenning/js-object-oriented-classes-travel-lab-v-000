@@ -5,7 +5,8 @@ class Driver{
   }
   
   startDate(myDate){
-    //let dateObj = new Date(myDate);
+    let dateObj = new Date(this.date);
+    let myYear = 
     return myDate;
   }
   
