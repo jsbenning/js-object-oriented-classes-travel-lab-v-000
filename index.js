@@ -9,10 +9,7 @@ class Driver{
   yearsExperienceFromBeginningOf(year){
     let myYear = (this.startDate).getFullYear();
     return (year - myYear);
-   
   }
-
-
 }
 
 class Route{
