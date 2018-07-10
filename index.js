@@ -20,7 +20,7 @@ class Route{
   
   blocksTravelled(){
     let eastWest = ["1st Avenue", "2nd Avenue", "3rd Avenue", "Lexington Avenue", "Park", "Madison Avenue", "5th Avenue"];
-   let myHor = Math.abs((indexOf(this.beg.vertical)) - (indexOf(this.end.vertical)));
+   let myHor = Math.abs((eastWest.indexOf(this.beg.vertical)) - (eastWest.indexOf(this.end.vertical)));
     
     
     
